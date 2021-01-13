@@ -160,7 +160,7 @@
                 <h1 class="portlet-title"> <span class=""
                     onmouseover="Liferay.Portal.ToolTip.show(this, &#39;Web\x20Content\x20Display&#39;)"> <img
                       id="rjus_column1_0" src="./assets/spacer.png" alt=""
-                      style="background-image: url(&#39;https://bbp.epfl.ch/nmc-portal/sprite/html/icons/_sprite.png&#39;); background-position: 50% -496px; background-repeat: no-repeat; height: 16px; width: 16px;">
+                      style="background-image: url(&#39;./assets/html/icons/_sprite.png&#39;); background-position: 50% -496px; background-repeat: no-repeat; height: 16px; width: 16px;">
                     <span class="taglib-text hide-accessible">Web Content Display</span> </span> <span
                     class="portlet-title-text">Web Content Display</span> </h1>
                 <menu class="portlet-topper-toolbar" id="portlet-topper-toolbar_56_INSTANCE_l7hlozqtz2P5"
@@ -187,13 +187,13 @@
                         simulations is written in the NEURON HOC language or Python. The files containing the synaptic
                         parameters and m-type mappings are tab-separated files.</p>
                       <p>The complete set of neuron models is available <a
-                          href="documents/10184/7288948/hoc_combos_syn.1_0_10.allzips.tar/cef96ba5-35ea-45a9-a2ef-2f27ec12ae6b">here</a>
+                          href="./assets/documents/10184/21773/hoc_combos_syn.1_0_10.allzips.tar">here</a>
                       </p>
                       <p>You can select specific neuron models in the interface below or by browsing to the relevant
                         me-type fact sheet.</p>
                       <p>A JSON file with some extra data about each neuron model, like the resting membrane potential,
                         input resistance and membrane time constant, can be downloaded&nbsp;<a
-                          href="documents/10197/0/RmpRiTau_summary.json/a46f2c2c-62fa-4213-8a9c-be8ac6abd047">here</a>
+                          href="./assets/documents/10184/21773/RmpRiTau_summary.json">here</a>
                       </p>
                       <p><em><strong>NeuroML2 version</strong></em></p>
                       <p>Thanks to a collaboration with Padraig Gleeson of the Open Source Brain, the model packages can
@@ -202,7 +202,7 @@
                           href="https://github.com/OpenSourceBrain/BlueBrainProjectShowcase/blob/master/NMC/NeuroML2/README.md">https://github.com/OpenSourceBrain/BlueBrainProjectShowcase/blob/master/NMC/NeuroML2/README.md</a>
                       </p>
                       <p>A file with the NeuroML2 versions of the model packages is available <a
-                          href="https://bbp.epfl.ch/public/nmc-models/NMC.NeuronML2.v1.zip">here</a></p>
+                          href="./assets/documents/10184/21773/NMC.NeuronML2.v1.zip">here</a></p>
                     </div>
                     <div class="entry-links"> </div>
                   </div>
@@ -225,45 +225,39 @@
                   id="portlet-topper-toolbar_smwdownloadportlet_WAR_smwdownloadportlet" type="toolbar"> </menu>
               </header>
               <div class="portlet-content">
-                <div class=" portlet-content-container" style="">
-                  <div class="portlet-body">
-                    <link href="./assets/bootstrap.min.css" rel="stylesheet">
-                    <div id="tree" class="treeview">
-                      <ul class="list-group">
-                        <li class="list-group-item node-tree" data-nodeid="0"
-                          style="color:undefined;background-color:undefined;"><span
-                            class="icon expand-icon glyphicon glyphicon-plus"></span><span
-                            class="icon node-icon"></span><span
-                            class="icon check-icon glyphicon glyphicon-unchecked"></span>L1</li>
-                        <li class="list-group-item node-tree" data-nodeid="91"
-                          style="color:undefined;background-color:undefined;"><span
-                            class="icon expand-icon glyphicon glyphicon-plus"></span><span
-                            class="icon node-icon"></span><span
-                            class="icon check-icon glyphicon glyphicon-unchecked"></span>L23</li>
-                        <li class="list-group-item node-tree" data-nodeid="360"
-                          style="color:undefined;background-color:undefined;"><span
-                            class="icon expand-icon glyphicon glyphicon-plus"></span><span
-                            class="icon node-icon"></span><span
-                            class="icon check-icon glyphicon glyphicon-unchecked"></span>L4</li>
-                        <li class="list-group-item node-tree" data-nodeid="649"
-                          style="color:undefined;background-color:undefined;"><span
-                            class="icon expand-icon glyphicon glyphicon-plus"></span><span
-                            class="icon node-icon"></span><span
-                            class="icon check-icon glyphicon glyphicon-unchecked"></span>L5</li>
-                        <li class="list-group-item node-tree" data-nodeid="975"
-                          style="color:undefined;background-color:undefined;"><span
-                            class="icon expand-icon glyphicon glyphicon-plus"></span><span
-                            class="icon node-icon"></span><span
-                            class="icon check-icon glyphicon glyphicon-unchecked"></span>L6</li>
-                      </ul>
-                    </div>
-                    <!-- The recommendation is to use liferay client side API to add the query parameters dynamically. but it seems overkilling here -->
-                    <button class="btn btn-primary"
-                      onclick="location.href = &#39;https://bbp.epfl.ch/nmc-portal/downloads?p_p_id=smwdownloadportlet_WAR_smwdownloadportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-1&amp;p_p_col_pos=1&amp;p_p_col_count=3&#39; + getParams()">Download
-                      checked items</button>
-                    <script>var getParams = function () { var a = smwDownload.getCheckedNodes(); var b = []; a.forEach(function (c) { if (c && c.nodes === undefined) { b.push({ id: c.file_id }) } }); return "&_smwdownloadportlet_WAR_smwdownloadportlet_selection=" + JSON.stringify(b) }; $(document).ready(function () { smwDownload.init("https://bbp.epfl.ch/nmc-portal/documents/10184/7288948/download_tree.json") });</script>
-                  </div>
-                </div>
+                <link href="./assets/bootstrap.min.css" rel="stylesheet">
+                <p><strong>To download click the file name</strong></p>
+                <div id="downloadTreeContainer"></div>
+                <a download id="downloadTreeLink"></a>
+                <script>
+                  // generates the 
+                  function generateTree1() {
+                        $.ajax({
+                            url: "./assets/documents/10184/21773/download_tree.json",
+                            type: "GET",
+                            success: function (a) {
+                                a = a.map(elem => ({...elem, state: {expanded: false}}));
+                                $("#downloadTreeContainer").treeview({
+                                    data: a,
+                                    onNodeSelected: function (b, c) {
+                                        requestFile1(c.text);
+                                    },
+                                });
+                            },
+                        });
+                    }
+                    $(document).ready(generateTree1);
+                    function requestFile1(name) {
+                        if (!name) return;
+                        const urlBase = './assets/documents/downloads';
+                        downloadFile1(`${urlBase}/${name}.zip`);
+                    }
+                    function downloadFile1(url) {
+                        var a = $("#downloadTreeLink")[0];
+                        a.href = url;
+                        a.click();
+                    }
+                </script>
               </div>
             </section>
           </div>
@@ -274,7 +268,7 @@
                 <h1 class="portlet-title"> <span class=""
                     onmouseover="Liferay.Portal.ToolTip.show(this, &#39;Web\x20Content\x20Display&#39;)"> <img
                       id="owel_column1_2" src="./assets/spacer.png" alt=""
-                      style="background-image: url(&#39;https://bbp.epfl.ch/nmc-portal/sprite/html/icons/_sprite.png&#39;); background-position: 50% -496px; background-repeat: no-repeat; height: 16px; width: 16px;">
+                      style="background-image: url(&#39;./assets/html/icons/_sprite.png&#39;); background-position: 50% -496px; background-repeat: no-repeat; height: 16px; width: 16px;">
                     <span class="taglib-text hide-accessible">Web Content Display</span> </span> <span
                     class="portlet-title-text">Web Content Display</span> </h1>
                 <menu class="portlet-topper-toolbar" id="portlet-topper-toolbar_56_INSTANCE_Itac9y6KnZg0"
@@ -466,23 +460,23 @@
                       <h3>Circuit</h3>
                       <p>.JSON file containing information about the circuit can be downloaded here:</p>
                       <p><a class="btn btn-primary"
-                          href="https://bbp.epfl.ch/nmc-portal/documents/10184/7288948/circuit_download.json/62f2cdfd-4b8c-4410-829b-15231aa0ccc0">Circuit
+                          href="./assets/documents/10184/21773/circuit_download.json">Circuit
                           data</a></p>
                       <p>Units are the same as in the circuit factsheet.</p>
                       <h3>Layers</h3>
                       <p>.JSON files containing information about the layers can be downloaded here:</p>
                       <p><a class="btn btn-primary"
-                          href="https://bbp.epfl.ch/nmc-portal/documents/10184/7288948/layer_download.json/ef5dcf4c-92cb-4c28-ad05-096b88d088a2">Layers
+                          href="./assets/documents/10184/21773/layer_download.json">Layers
                           data</a></p>
                       <p>Units are the same as in the layers factsheets.</p>
                       <h3>Pathways</h3>
                       <p>.JSON files containing anatomical&nbsp;and&nbsp;physiological data for all the pathways can be
                         downloaded here:</p>
                       <p><a class="btn btn-primary"
-                          href="https://bbp.epfl.ch/nmc-portal/documents/10184/7288948/pathways_anatomy_factsheets_simplified.json">Anatomy
+                          href="./assets/documents/10184/21773/pathways_anatomy_factsheets_simplified.json">Anatomy
                           data</a></p>
                       <p><a class="btn btn-primary"
-                          href="https://bbp.epfl.ch/nmc-portal/documents/10184/7288948/pathways_physiology_factsheets_simplified.json">Physiology
+                          href="./assets/documents/10184/21773/pathways_physiology_factsheets_simplified.json">Physiology
                           data</a></p>
                       <p>Units are the same as in the pathways factsheets.</p>
                       <h3>Connectome</h3>
@@ -540,7 +534,7 @@
                       </div>
                       <!-- <a class="btn btn-primary" href="#openModal" id="openModalButton">Download connectome</a> -->
                       <div class="modalDialog" id="openModal">
-                        <div> <a class="close" href="https://bbp.epfl.ch/nmc-portal/downloads#" title="Close"> <svg
+                        <div> <a class="close" href="./downloads.html#" title="Close"> <svg
                               viewBox="0 0 24 24">
                               <path
                                 d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z">
@@ -700,7 +694,129 @@
                       </div>
                       <script src="./assets/bootstrap-treeview.min.js"> </script>
                       <link rel="stylesheet" href="./assets/bootstrap-treeview.min(1).css">
-                      <script>var modal = document.querySelector(".modalDialog"); var closeButton = modal.querySelector(".close"); var currentFilePath = null; var contactForm = document.getElementById("contact"); function locationHashChanged() { if (location.hash === "#openModal") { modal.addEventListener("click", a) } function a(b) { if (b.target === modal || b.path.indexOf(closeButton) >= 0) { modal.removeEventListener("click", a); closeButton.click() } } } window.onhashchange = locationHashChanged; function downloadAndCloseWindow() { var a = content.querySelector("#modelLink"); a.href = currentFilePath; a.click(); setTimeout(function () { closeButton.click(); submitButton.classList.remove("disabled") }, 1000) } function generateTree() { $.ajax({ url: "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/connectome.json", type: "GET", dataType: "jsonp", jsonpCallback: "callback", success: function (a) { $("#connectome_tree").treeview({ data: [a], onNodeSelected: function (b, c) { requestFile(c.url) } }) } }) } generateTree(); function requestFile(a) { if (a) { currentFilePath = a; var d = window.localStorage.getItem("connectome_contact_form"); if (!d) { window.location.hash = "openModal" } else { try { var b = JSON.parse(d); if (b) { downloadFile(b) } } catch (c) { console.error(c) } } } } function sendStatistics(a) { $.ajax({ url: "https://api.ipify.org?format=json", type: "GET", success: function (b) { var c = b.ip; a.set("entry.1781189588", c); a.set("entry.1395159062", currentFilePath); serializeForm(a); $.ajax({ url: "https://docs.google.com/a/epfl.ch/forms/d/e/1FAIpQLSfP8AQwBblPVXvlNTvOoSKX1uTgv7SKvW2ypFIr1RAkKo6Jfg/formResponse", data: a, type: "POST", contentType: false, processData: false, statusCode: { 0: downloadAndCloseWindow, 200: downloadAndCloseWindow } }) } }) } var content = document.querySelector(".content-wrapper"); var submitButton = content.querySelector("#downloadButtonForm"); var downloadFile = function (d) { var c = null; if (d) { c = deserializeForm(d) } else { var b = content.querySelector("#contact"); var a = modal.querySelector(".close"); if (b.checkValidity()) { c = new FormData(b); submitButton.classList.add("disabled") } else { if (location.hash == "#openModal") { b.reportValidity() } } } sendStatistics(c) }; var serializeForm = function (f) { var e = {}; var c = f.entries(); var a = c.next(); while (a.value != null) { var b = a.value[0]; var d = a.value[1]; e[b] = d; a = c.next() } window.localStorage.setItem("connectome_contact_form", JSON.stringify(e)) }; var deserializeForm = function (e) { var f = new FormData(document.createElement("form")); var c = Object.keys(e); for (var b = 0; b < c.length; b++) { var a = c[b]; var d = e[a]; f.append(a, d) } return f };</script>
+                      <script>
+                        var modal = document.querySelector(".modalDialog");
+                        var closeButton = modal.querySelector(".close");
+                        var currentFilePath = null;
+                        var contactForm = document.getElementById("contact");
+                        function locationHashChanged() {
+                            if (location.hash === "#openModal") {
+                                modal.addEventListener("click", a);
+                            }
+                            function a(b) {
+                                if (b.target === modal || b.path.indexOf(closeButton) >= 0) {
+                                    modal.removeEventListener("click", a);
+                                    closeButton.click();
+                                }
+                            }
+                        }
+                        window.onhashchange = locationHashChanged;
+                        function downloadAndCloseWindow() {
+                            var a = content.querySelector("#modelLink");
+                            a.href = currentFilePath;
+                            a.click();
+                            setTimeout(function () {
+                                closeButton.click();
+                                submitButton.classList.remove("disabled");
+                            }, 1000);
+                        }
+                        function generateTree() {
+                            $.ajax({
+                                url: "./assets/documents/10184/21773/connectome.json",
+                                type: "GET",
+                                success: function (a) {
+                                    a = a.map(elem => ({...elem, state: {expanded: false}}));
+                                    $("#connectome_tree").treeview({
+                                        data: a,
+                                        onNodeSelected: function (b, c) {
+                                            requestFile(c.url);
+                                        },
+                                    });
+                                },
+                            });
+                        }
+                        generateTree();
+                        function requestFile(a) {
+                            if (a) {
+                                currentFilePath = a;
+                                var d = window.localStorage.getItem("connectome_contact_form");
+                                if (!d) {
+                                    window.location.hash = "openModal";
+                                } else {
+                                    try {
+                                        var b = JSON.parse(d);
+                                        if (b) {
+                                            downloadFile(b);
+                                        }
+                                    } catch (c) {
+                                        console.error(c);
+                                    }
+                                }
+                            }
+                        }
+                        function sendStatistics(a) {
+                            $.ajax({
+                                url: "https://api.ipify.org?format=json",
+                                type: "GET",
+                                success: function (b) {
+                                    var c = b.ip;
+                                    a.set("entry.1781189588", c);
+                                    a.set("entry.1395159062", currentFilePath);
+                                    serializeForm(a);
+                                    $.ajax({
+                                        url: "https://docs.google.com/a/epfl.ch/forms/d/e/1FAIpQLSfP8AQwBblPVXvlNTvOoSKX1uTgv7SKvW2ypFIr1RAkKo6Jfg/formResponse",
+                                        data: a,
+                                        type: "POST",
+                                        contentType: false,
+                                        processData: false,
+                                        statusCode: { 0: downloadAndCloseWindow, 200: downloadAndCloseWindow },
+                                    });
+                                },
+                            });
+                        }
+                        var content = document.querySelector(".content-wrapper");
+                        var submitButton = content.querySelector("#downloadButtonForm");
+                        var downloadFile = function (d) {
+                            var c = null;
+                            if (d) {
+                                c = deserializeForm(d);
+                            } else {
+                                var b = content.querySelector("#contact");
+                                var a = modal.querySelector(".close");
+                                if (b.checkValidity()) {
+                                    c = new FormData(b);
+                                    submitButton.classList.add("disabled");
+                                } else {
+                                    if (location.hash == "#openModal") {
+                                        b.reportValidity();
+                                    }
+                                }
+                            }
+                            sendStatistics(c);
+                        };
+                        var serializeForm = function (f) {
+                            var e = {};
+                            var c = f.entries();
+                            var a = c.next();
+                            while (a.value != null) {
+                                var b = a.value[0];
+                                var d = a.value[1];
+                                e[b] = d;
+                                a = c.next();
+                            }
+                            window.localStorage.setItem("connectome_contact_form", JSON.stringify(e));
+                        };
+                        var deserializeForm = function (e) {
+                            var f = new FormData(document.createElement("form"));
+                            var c = Object.keys(e);
+                            for (var b = 0; b < c.length; b++) {
+                                var a = c[b];
+                                var d = e[a];
+                                f.append(a, d);
+                            }
+                            return f;
+                        };
+                      </script>
                     </div>
                     <div class="entry-links"> </div>
                   </div>
