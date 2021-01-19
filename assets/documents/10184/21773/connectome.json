@@ -3,186 +3,186 @@
     "text": "AVERAGE: 7 stochastic instances of a model microcircuit based on averaged measurements of neuron densities, E/I balance and layer widths.",
     "nodes": [
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc0_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc0_Column.tar",
         "text": "cons_locs_pathways_mc0_Column.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc1_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc1_Column.tar",
         "text": "cons_locs_pathways_mc1_Column.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc2_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc2_Column.tar",
         "text": "cons_locs_pathways_mc2_Column.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc3_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc3_Column.tar",
         "text": "cons_locs_pathways_mc3_Column.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc4_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc4_Column.tar",
         "text": "cons_locs_pathways_mc4_Column.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc5_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc5_Column.tar",
         "text": "cons_locs_pathways_mc5_Column.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/average/cons_locs_pathways_mc6_Column.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average/cons_locs_pathways_mc6_Column.tar",
         "text": "cons_locs_pathways_mc6_Column.tar"
       }
     ]
   },
   {
-    "url": "./assets/documents/pathways_stripped_prod/average_full.tar",
+    "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/average_full.tar",
     "text": "average_full.tar"
   },
   {
     "text": "CONTROLS: 35 stochastic instances of a CONTROL microcircuit where connectivity is based on the overlap of AVERAGE morphologies instead of individual morphologies. To be used as a CONTROL. Specifically, there are 5 random instances, each preserving the number of connections found in one of 7 stochastic instances of a reconstructed microcircuit.",
     "nodes": [
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc0_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc0_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc0_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc0_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc0_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc0_Column_rnd_instance4.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc1_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc1_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc1_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc1_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc1_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc1_Column_rnd_instance4.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc2_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc2_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc2_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc2_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc2_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc2_Column_rnd_instance4.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc3_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc3_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc3_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc3_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc3_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc3_Column_rnd_instance4.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc4_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc4_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc4_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc4_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc4_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc4_Column_rnd_instance4.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc5_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc5_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc5_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc5_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc5_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc5_Column_rnd_instance4.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance0.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance0.tar",
         "text": "cons_locs_pathways_mc6_Column_rnd_instance0.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance1.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance1.tar",
         "text": "cons_locs_pathways_mc6_Column_rnd_instance1.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance2.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance2.tar",
         "text": "cons_locs_pathways_mc6_Column_rnd_instance2.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance3.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance3.tar",
         "text": "cons_locs_pathways_mc6_Column_rnd_instance3.tar"
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance4.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls/cons_locs_pathways_mc6_Column_rnd_instance4.tar",
         "text": "cons_locs_pathways_mc6_Column_rnd_instance4.tar"
       }
     ]
   },
   {
-    "url": "./assets/documents/pathways_stripped_prod/controls_full.tar",
+    "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/controls_full.tar",
     "text": "controls_full.tar"
   },
   {
@@ -192,191 +192,191 @@
         "text": "pathways_P14-13",
         "nodes": [
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc0_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc0_Column.tar",
             "text": "pathways_mc0_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc1_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc1_Column.tar",
             "text": "pathways_mc1_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc2_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc2_Column.tar",
             "text": "pathways_mc2_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc3_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc3_Column.tar",
             "text": "pathways_mc3_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc4_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc4_Column.tar",
             "text": "pathways_mc4_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc5_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc5_Column.tar",
             "text": "pathways_mc5_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc6_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13/pathways_mc6_Column.tar",
             "text": "pathways_mc6_Column.tar"
           }
         ]
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-13_full.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-13_full.tar",
         "text": "pathways_P14-13_full.tar"
       },
       {
         "text": "pathways_P14-14",
         "nodes": [
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc0_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc0_Column.tar",
             "text": "pathways_mc0_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc1_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc1_Column.tar",
             "text": "pathways_mc1_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc2_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc2_Column.tar",
             "text": "pathways_mc2_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc3_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc3_Column.tar",
             "text": "pathways_mc3_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc4_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc4_Column.tar",
             "text": "pathways_mc4_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc5_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc5_Column.tar",
             "text": "pathways_mc5_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc6_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14/pathways_mc6_Column.tar",
             "text": "pathways_mc6_Column.tar"
           }
         ]
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-14_full.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-14_full.tar",
         "text": "pathways_P14-14_full.tar"
       },
       {
         "text": "pathways_P14-15",
         "nodes": [
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc0_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc0_Column.tar",
             "text": "pathways_mc0_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc1_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc1_Column.tar",
             "text": "pathways_mc1_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc2_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc2_Column.tar",
             "text": "pathways_mc2_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc3_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc3_Column.tar",
             "text": "pathways_mc3_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc4_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc4_Column.tar",
             "text": "pathways_mc4_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc5_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc5_Column.tar",
             "text": "pathways_mc5_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc6_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15/pathways_mc6_Column.tar",
             "text": "pathways_mc6_Column.tar"
           }
         ]
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-15_full.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-15_full.tar",
         "text": "pathways_P14-15_full.tar"
       },
       {
         "text": "pathways_P14-16",
         "nodes": [
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc0_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc0_Column.tar",
             "text": "pathways_mc0_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc1_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc1_Column.tar",
             "text": "pathways_mc1_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc2_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc2_Column.tar",
             "text": "pathways_mc2_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc3_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc3_Column.tar",
             "text": "pathways_mc3_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc4_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc4_Column.tar",
             "text": "pathways_mc4_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc5_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc5_Column.tar",
             "text": "pathways_mc5_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc6_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16/pathways_mc6_Column.tar",
             "text": "pathways_mc6_Column.tar"
           }
         ]
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-16_full.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-16_full.tar",
         "text": "pathways_P14-16_full.tar"
       },
       {
         "text": "pathways_P14-17",
         "nodes": [
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc0_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc0_Column.tar",
             "text": "pathways_mc0_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc1_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc1_Column.tar",
             "text": "pathways_mc1_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc2_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc2_Column.tar",
             "text": "pathways_mc2_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc3_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc3_Column.tar",
             "text": "pathways_mc3_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc4_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc4_Column.tar",
             "text": "pathways_mc4_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc5_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc5_Column.tar",
             "text": "pathways_mc5_Column.tar"
           },
           {
-            "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc6_Column.tar",
+            "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17/pathways_mc6_Column.tar",
             "text": "pathways_mc6_Column.tar"
           }
         ]
       },
       {
-        "url": "./assets/documents/pathways_stripped_prod/individuals/pathways_P14-17_full.tar",
+        "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals/pathways_P14-17_full.tar",
         "text": "pathways_P14-17_full.tar"
       }
     ]
   },
   {
-    "url": "./assets/documents/pathways_stripped_prod/individuals_full.tar",
+    "url": "https://bbp.epfl.ch/public/nmc-models/pathways_stripped_prod/individuals_full.tar",
     "text": "individuals_full.tar"
   }
 ]

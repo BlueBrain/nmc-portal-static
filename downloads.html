@@ -187,13 +187,13 @@
                         simulations is written in the NEURON HOC language or Python. The files containing the synaptic
                         parameters and m-type mappings are tab-separated files.</p>
                       <p>The complete set of neuron models is available <a
-                          href="./assets/documents/10184/21773/hoc_combos_syn.1_0_10.allzips.tar">here</a>
+                          href="./assets/documents/static/Download/hoc_combos_syn.1_0_10.allzips.tar">here</a>
                       </p>
                       <p>You can select specific neuron models in the interface below or by browsing to the relevant
                         me-type fact sheet.</p>
                       <p>A JSON file with some extra data about each neuron model, like the resting membrane potential,
                         input resistance and membrane time constant, can be downloaded&nbsp;<a
-                          href="./assets/documents/10184/21773/RmpRiTau_summary.json">here</a>
+                          href="./assets/documents/static/Download/RmpRiTau_summary.json">here</a>
                       </p>
                       <p><em><strong>NeuroML2 version</strong></em></p>
                       <p>Thanks to a collaboration with Padraig Gleeson of the Open Source Brain, the model packages can
@@ -202,7 +202,7 @@
                           href="https://github.com/OpenSourceBrain/BlueBrainProjectShowcase/blob/master/NMC/NeuroML2/README.md">https://github.com/OpenSourceBrain/BlueBrainProjectShowcase/blob/master/NMC/NeuroML2/README.md</a>
                       </p>
                       <p>A file with the NeuroML2 versions of the model packages is available <a
-                          href="./assets/documents/10184/21773/NMC.NeuronML2.v1.zip">here</a></p>
+                          href="./assets/documents/static/Download/NMC.NeuronML2.v1.zip">here</a></p>
                     </div>
                     <div class="entry-links"> </div>
                   </div>
@@ -249,8 +249,9 @@
                     $(document).ready(generateTree1);
                     function requestFile1(name) {
                         if (!name) return;
-                        const urlBase = './assets/documents/downloads';
-                        downloadFile1(`${urlBase}/${name}.zip`);
+                        const urlBase = './assets/documents/static/downloads-zip';
+                        const extension = name.endsWith('.zip') ? '' : '.zip';
+                        downloadFile1(`${urlBase}/${name}${extension}`);
                     }
                     function downloadFile1(url) {
                         var a = $("#downloadTreeLink")[0];
@@ -460,23 +461,23 @@
                       <h3>Circuit</h3>
                       <p>.JSON file containing information about the circuit can be downloaded here:</p>
                       <p><a class="btn btn-primary"
-                          href="./assets/documents/10184/21773/circuit_download.json">Circuit
+                          href="./assets/documents/static/Download/circuit_download.json">Circuit
                           data</a></p>
                       <p>Units are the same as in the circuit factsheet.</p>
                       <h3>Layers</h3>
                       <p>.JSON files containing information about the layers can be downloaded here:</p>
                       <p><a class="btn btn-primary"
-                          href="./assets/documents/10184/21773/layer_download.json">Layers
+                          href="./assets/documents/static/Download/layer_download.json">Layers
                           data</a></p>
                       <p>Units are the same as in the layers factsheets.</p>
                       <h3>Pathways</h3>
                       <p>.JSON files containing anatomical&nbsp;and&nbsp;physiological data for all the pathways can be
                         downloaded here:</p>
                       <p><a class="btn btn-primary"
-                          href="./assets/documents/10184/21773/pathways_anatomy_factsheets_simplified.json">Anatomy
+                          href="./assets/documents/static/Download/pathways_anatomy_factsheets_simplified.json">Anatomy
                           data</a></p>
                       <p><a class="btn btn-primary"
-                          href="./assets/documents/10184/21773/pathways_physiology_factsheets_simplified.json">Physiology
+                          href="./assets/documents/static/Download/pathways_physiology_factsheets_simplified.json">Physiology
                           data</a></p>
                       <p>Units are the same as in the pathways factsheets.</p>
                       <h3>Connectome</h3>
