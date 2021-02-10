@@ -224,17 +224,18 @@
               <div class="portlet-content">
                 <link href="./assets/bootstrap.min.css" rel="stylesheet">
                 <p><strong>To download click the file name</strong></p>
-                <div id="downloadTreeContainer"></div>
+                <div id="neuron_tree"></div>
                 <a download id="downloadTreeLink"></a>
                 <script>
                   // generates the 
-                  function generateTree1() {
+                  function generateNeuronsTree() {
                         $.ajax({
                             url: "./assets/documents/10184/21773/download_tree.json",
                             type: "GET",
+                            dataType: "json",
                             success: function (a) {
                                 a = a.map(elem => ({...elem, state: {expanded: false}}));
-                                $("#downloadTreeContainer").treeview({
+                                $("#neuron_tree").treeview({
                                     data: a,
                                     onNodeSelected: function (b, c) {
                                         requestFile1(c.text);
@@ -243,7 +244,7 @@
                             },
                         });
                     }
-                    $(document).ready(generateTree1);
+                    $(document).ready(generateNeuronsTree);
                     function requestFile1(name) {
                         if (!name) return;
                         const urlBase = './assets/documents/static/downloads-zip';
@@ -718,10 +719,11 @@
                                 submitButton.classList.remove("disabled");
                             }, 1000);
                         }
-                        function generateTree() {
+                        function generateConnectomeTree() {
                             $.ajax({
                                 url: "./assets/documents/10184/21773/connectome.json",
                                 type: "GET",
+                                dataType: "json",
                                 success: function (a) {
                                     a = a.map(elem => ({...elem, state: {expanded: false}}));
                                     $("#connectome_tree").treeview({
@@ -733,7 +735,7 @@
                                 },
                             });
                         }
-                        generateTree();
+                        $(document).ready(generateConnectomeTree);
                         function requestFile(a) {
                             if (a) {
                                 currentFilePath = a;
