@@ -105,4 +105,4 @@ the main (upstream) repository:
     git pull --ff upstream master
     ```
 
-[github]: https://github.com/BlueBrain/blue-pair
+[github]: https://github.com/BlueBrain/nmc-portal-static
