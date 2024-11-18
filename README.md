@@ -9,7 +9,7 @@ To re-generate some files in a bulk way a notebook (fetch-info-notebook.ipynb) i
 
 To push to object storage a script file (test-s3-locally.py) is available. You would need to add the credentials
 
-# Funding and Awknowledgement
+## Funding and Aknowledgement
 
 The development of this software was supported by funding to the Blue Brain Project, a research center of the École polytechnique fédérale de Lausanne (EPFL), from the Swiss government's ETH Board of the Swiss Federal Institutes of Technology.
 
